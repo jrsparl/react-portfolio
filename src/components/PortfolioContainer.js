@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './Nav';
 import About from './About';
 import Portfolio from './Portfolio';
-
+import Contact from './Contact';
 function PortfolioContainer() {
   const [currentPage, handlePageChange] = useState('About');
 
@@ -17,6 +17,9 @@ function PortfolioContainer() {
 
       case 'Portfolio':
         return <Portfolio />;
+      
+        case 'Contact':
+          return <Contact />;
 
       default:
         return <About />;

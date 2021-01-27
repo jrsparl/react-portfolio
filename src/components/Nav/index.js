@@ -3,7 +3,7 @@ import { Navbar, Nav, Jumbotron, Container, Form, Button } from 'react-bootstrap
 import image from '../../assets/Full Stack Logo White.png';
 
 function Header(props) {
-  const tabs = ['About', 'Portfolio'];
+  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
     <>
       <header>
@@ -17,15 +17,15 @@ function Header(props) {
               alt="React Bootstrap logo"
             />
           </Navbar.Brand>
-          <Container className="px-3 text-name">
-          <Navbar.Brand href="#about">John Sparling</Navbar.Brand>
-          </Container>
+          
+          <Navbar.Brand href="#about" style={{fontSize: "45px"}}>John Sparling</Navbar.Brand>
+         
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="d-flex justify-content-end w-100 mr-5 h2">
               {tabs.map(tab => (
-                <li className="nav-item" key={tab}>
+                <li className="nav-item p-2" key={tab}>
                   <Nav.Link
                     href={'#' + tab.toLowerCase()}
                     onClick={() => props.handlePageChange(tab)}

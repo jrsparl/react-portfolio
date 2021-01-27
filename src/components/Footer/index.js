@@ -12,7 +12,7 @@ const FooterPage = () => {
                 <h5 className="mb-1">Contact Me</h5>
               </li>
               <li className="list-inline-item">
-                <a href="#!" className="btn btn-danger btn-rounded">
+                <a href="#contact" className="btn btn-danger btn-rounded">
                   Sign up!
                 </a>
               </li>
@@ -50,7 +50,7 @@ const FooterPage = () => {
           </div>
           <div className="footer-copyright text-center py-3">
             <MDBContainer fluid>
-              &copy; {new Date().getFullYear()} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+              &copy; {new Date().getFullYear()} Copyright
             </MDBContainer>
           </div>
         </MDBFooter>
