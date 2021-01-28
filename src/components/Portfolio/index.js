@@ -60,11 +60,14 @@ function Portfolio() {
                 {portfolioData.map((project, i) => (
                     <MDBCard style={{ width: "22rem" }} className="m-1">
                         <a href={project.githublink} target='_blank'>
+                         
                             <MDBCardImage className="img-fluid" src={project.img} waves />
+                            <DiGithubAlt style={{position:"absolute", top: "0", color:"#224e66", fontSize:"45px", opacity: "0.5"}}/>
+                        
                         </a>
                         <MDBCardBody>
 
-                            <MDBCardTitle>{project.title} <DiGithubAlt /></MDBCardTitle>
+                            <MDBCardTitle>{project.title}</MDBCardTitle>
                             
                             <MDBCardText style={{ height: "100px" }}>
                                 {project.description}

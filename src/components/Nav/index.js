@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { Navbar, Nav, Jumbotron, Container, Form, Button } from 'react-bootstrap'
 import image from '../../assets/Full Stack Logo White.png';
-
+import resume from "../../assets/files/Resume.pdf";
 function Header(props) {
-  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+  const tabs = ['About', 'Portfolio', 'Contact'];
   return (
     <>
       <header>
@@ -37,7 +37,15 @@ function Header(props) {
                   </Nav.Link>
                 </li>
               ))}
-
+               <li className="nav-item p-2">
+                  <Nav.Link
+                    href={resume}
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                   Resume
+                  </Nav.Link>
+                </li>
             </Nav>
 
           </Navbar.Collapse>
