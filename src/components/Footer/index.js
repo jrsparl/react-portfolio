@@ -1,49 +1,42 @@
-import React from "react";
+import { React } from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-
-const FooterPage = () => {
+import { FaRegEnvelope } from 'react-icons/fa';
+import { Nav } from "react-bootstrap";
+const FooterPage = (props) => {
     return (
         <MDBFooter className="nav-background page-footer font-small pt-4 mt-0">
         
           <hr />
           <div className="text-center py-3">
-            <ul className="list-unstyled list-inline mb-0">
+            {/* <ul className="list-unstyled list-inline mb-0">
               <li className="list-inline-item">
                 <h5 className="mb-1">Contact Me</h5>
               </li>
               <li className="list-inline-item">
-                <a href="#contact" className="btn btn-danger btn-rounded">
-                  Sign up!
-                </a>
+                <Nav.Link href="#contact" className="btn btn-danger btn-rounded" 
+                onClick={() => props.handlePageChange('Contact')}
+              >
+                <FaRegEnvelope style={{fontSize:"25px"}}/>
+                </Nav.Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <hr />
           <div className="text-center">
             <ul className="list-unstyled list-inline">
               <li className="list-inline-item">
-                <a className="btn-floating btn-sm btn-fb mx-1">
-                  <i className="fab fa-facebook-f"> </i>
+                <a className="btn-floating btn-sm btn-tw mx-1" href="https://github.com/jrsparl" target='_blank'>
+                  <i className="fab fa-github" style={{fontSize:"35px"}}> </i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a className="btn-floating btn-sm btn-tw mx-1">
-                  <i className="fab fa-twitter"> </i>
+                <a className="btn-floating btn-sm btn-gplus mx-1" href="https://stackexchange.com/users/19195383/jrsparl85" target='_blank'>
+                  <i className="fab fa-stack-overflow" style={{fontSize:"35px"}}> </i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a className="btn-floating btn-sm btn-gplus mx-1">
-                  <i className="fab fa-google-plus"> </i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a className="btn-floating btn-sm btn-li mx-1">
-                  <i className="fab fa-linkedin-in"> </i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a className="btn-floating btn-sm btn-dribbble mx-1">
-                  <i className="fab fa-dribbble"> </i>
+                <a className="btn-floating btn-sm btn-li mx-1" href="https://linkedin.com/in/sparlingmusic" target='_blank'>
+                  <i className="fab fa-linkedin-in" style={{fontSize:"35px"}}> </i>
                 </a>
               </li>
             </ul>
