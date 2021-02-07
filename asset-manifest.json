@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.03b546c8.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2537d23d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2537d23d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.bec15526.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.bec15526.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.66880624.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.66880624.js.map",
     "static/css/2.d824e767.chunk.css": "/react-portfolio/static/css/2.d824e767.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/mdb.css": "/react-portfolio/static/media/arrow_right.0897f985.svg",
     "static/media/budgetTracker.4fb1f2a2.png": "/react-portfolio/static/media/budgetTracker.4fb1f2a2.png",
     "static/media/index.css": "/react-portfolio/static/media/business-dev.b55ec139.png",
+    "static/media/creativesquare.69c24059.png": "/react-portfolio/static/media/creativesquare.69c24059.png",
     "static/media/all.min.css": "/react-portfolio/static/media/fa-solid-900.f4f93856.woff",
     "static/media/johnProfile.630b705f.png": "/react-portfolio/static/media/johnProfile.630b705f.png",
     "static/media/tourVid.b6ebd713.png": "/react-portfolio/static/media/tourVid.b6ebd713.png",
@@ -30,6 +31,6 @@
     "static/css/2.d824e767.chunk.css",
     "static/js/2.e8a72530.chunk.js",
     "static/css/main.03b546c8.chunk.css",
-    "static/js/main.2537d23d.chunk.js"
+    "static/js/main.bec15526.chunk.js"
   ]
 }
