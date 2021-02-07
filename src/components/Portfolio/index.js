@@ -5,11 +5,19 @@ import tourVidImg from '../../assets/tourVid.png'
 import mspImg from '../../assets/MSP.png'
 import weatherImg from '../../assets/weatherDashboard.png'
 import budgetImg from '../../assets/budgetTracker.png'
+import creativeSquare from '../../assets/creativesquare.png'
 
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow } from 'mdbreact';
 
 function Portfolio() {
     const portfolioData = [
+        {
+            img: creativeSquare,
+            githublink: "https://github.com/Napo-100/creative-square.git",
+            titlelink: "https://creative-square.herokuapp.com/",
+            title: 'Creative Square',
+            description: "A portofolio application with a social media forward flare!"
+        },
         {
             img: mspImg,
             githublink: "https://github.com/jrsparl/UCF-mystudioportal.git",
